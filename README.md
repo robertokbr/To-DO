@@ -10,5 +10,5 @@ The To-DO application can add, list and exclude your chores. All information is 
 
 ## Observation
 
--   [ ] currently, this unformatted (no style.css).
+-   [ ] currently, the application is unformatted (no style.css).
 
