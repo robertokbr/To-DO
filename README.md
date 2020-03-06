@@ -8,7 +8,9 @@ The To-DO application can add, list and exclude your chores. All information is 
 -   [ ] The user can delete `To-Do` that is not useful or that have already been performed.
 -   [ ] The application saves the data locally, recovering it even after the browser is closed
 
-## Observation
+## To implement
 
--   [ ] currently, the application is unformatted (no style.css).
+-   [ ] CSS document for application formatting.
+-   [ ] local time to set the To-Do's alarm.
+-   [ ] Pop-up notification.
 
