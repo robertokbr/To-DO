@@ -11,6 +11,6 @@ The To-DO application can add, list and exclude your chores. All information is 
 ## To implement
 
 -   [ ] CSS document for application formatting.
--   [ ] local time to set the To-Do's alarm.
+-   [ ] local time to implement a To-Do's alarm.
 -   [ ] Pop-up notification.
 
