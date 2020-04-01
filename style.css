@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+
+
+
+body {
+    background: 
+    
+    url(https://www.econtabilis.com/wp-content/uploads/2018/06/Do-digital-Tools-make-us-more-or-less-productive-at-work.jpg) no-repeat center top fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+   
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+div{
+   
+    width: 50%;
+    padding: 50px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+    }
+
+
+input,button, ul{
+
+    font:700 20px Roboto, sans-serif;
+    
+    
+}
+
+
+input,button{
+
+    display: flex;
+}
+
+input{
+
+    width: 50%;
+    height: 60px;
+    color: #333;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+
+button{
+    width: 20%;
+    height: 60px;
+    background: #e02041;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+    }
+
+    button:hover{
+        filter: brightness(90%);
+        
+        
+        }
+        

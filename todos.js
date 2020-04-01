@@ -10,10 +10,10 @@ var todos = JSON.parse(localStorage.getItem('list_todos')) || [];
       for (todo of todos){
     
        var todoElement =document.createElement('li');
-       var todoText = document.createTextNode(todo+" --: ");
+       var todoText = document.createTextNode(todo+"    ");
 
         var linkElement= document.createElement('a');
-        var linkText = document.createTextNode('Exclude');
+        var linkText = document.createTextNode('📌');
       linkElement.setAttribute('href','#');
          var pos = todos.indexOf(todo);
          linkElement.setAttribute('onclick', 'deletTodo('+pos+')');
@@ -55,4 +55,6 @@ function saveToStorage(){
 
 
 }
+
+
 
